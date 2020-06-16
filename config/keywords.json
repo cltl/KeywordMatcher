@@ -1,0 +1,20 @@
+{
+  "label_to_keywords" : {
+    "dieren": [
+      "katten",
+      "honden",
+      "olifanten"
+    ],
+    "koppelwerkwoorden": [
+      "is",
+      "zijn"
+    ]
+  },
+  "input_folder" : "../output",
+  "suffix" : ".conll",
+  "conll_delimiter" : "  ",
+  "index_column" : 0,
+  "sample_size_per_label" : 2,
+  "output_path_index" : "../output/index.json",
+  "output_path_index_sample" : "../output/index_sample.json"
+}

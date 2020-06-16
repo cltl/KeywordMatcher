@@ -1,0 +1,19 @@
+{
+  "label_to_keywords": {
+  "D450": ["lopen", "loopt", "gelopen", "traplopen"],
+  "B730": ["spier", "spieren", "parese", "paralyse", "monoplegie",
+           "hemiplegie", "paraplegie", "quadriplegie", "akinetisch", "mutisme"],
+  "B1300": ["energieniveau", "motivatie", "begeerte", "hunkering",
+           "verslaving", "veroorzaken", "driftbeheersing"],
+  "B152" : ["stemming", "affect", "droefheid", "geluk", "liefde", "vrees", "boosheid",
+            "haat", "gespannenheid", "angst", "vreugde", "verdriet",
+            "labiliteit", "emotie", "emotioneel", "emotionele", "vervlakking"]
+},
+  "input_folder": "../output",
+  "suffix": ".conll",
+  "conll_delimiter": "  ",
+  "index_column": 0,
+  "sample_size_per_label": 2,
+  "output_path_index": "../output/index.json",
+  "output_path_index_sample": "../output/index_sample.json"
+}

@@ -1,0 +1,17 @@
+{
+  "csv_paths" : [
+    "../res/example.csv",
+    "../res/example2.csv"
+  ],
+  "csv_columnname" : "text",
+  "csv_delimiter" : ",",
+  "text_to_conll" : {
+    "spacy_model_name" : "nl_core_news_sm",
+    "delimiter" : "  ",
+    "output_dir" : "../output",
+    "spacy_attrs" : ["text", "ent_type_"],
+    "default_values" : {"ent_type_" : "O"},
+    "start_with_index" : false,
+    "overwrite_existing_conll_file" : false
+  }
+}
