@@ -37,6 +37,9 @@ for csv_path in settings['csv_paths']:
 
     for index, row in df.iterrows():
 
+        if index >= settings['first_n_rows']:
+            break
+
         text_to_conll(text=row[settings['csv_columnname']],
                       nlp=nlp,
                       delimiter=settings['text_to_conll']['delimiter'],

@@ -5,6 +5,7 @@
   ],
   "csv_columnname" : "text",
   "csv_delimiter" : ",",
+  "first_n_rows" : 1000,
   "text_to_conll" : {
     "spacy_model_name" : "nl_core_news_sm",
     "delimiter" : "  ",
