@@ -1,0 +1,17 @@
+{
+  "csv_paths" : [
+    "/data/notes/vumc/all_data/notities_2017_deel1_cleaned.csv"
+  ],
+  "csv_columnname" : "notitie",
+  "csv_delimiter" : ",",
+  "first_n_rows" : 3000,
+  "text_to_conll" : {
+    "spacy_model_name" : "nl_core_news_sm",
+    "delimiter" : "  ",
+    "output_dir" : "/data/covid_project/data/the_sample/all",
+    "spacy_attrs" : ["text", "ent_type_"],
+    "default_values" : {"ent_type_" : "O"},
+    "start_with_index" : false,
+    "overwrite_existing_conll_file" : false
+  }
+}
