@@ -9,11 +9,11 @@
             "haat", "gespannenheid", "angst", "vreugde", "verdriet",
             "labiliteit", "emotie", "emotioneel", "emotionele", "vervlakking"]
 },
-  "input_folder": "../output",
+  "input_folder": "/data/covid_project/data/the_sample/all",
   "suffix": ".conll",
   "conll_delimiter": "  ",
   "index_column": 0,
-  "sample_size_per_label": 2,
-  "output_path_index": "../output/index.json",
-  "output_path_index_sample": "../output/index_sample.json"
+  "sample_size_per_label": 60,
+  "output_path_index": "/data/covid_project/data/the_sample/all/index.json",
+  "output_path_index_sample": "/data/covid_project/data/the_sample/all/index_sample.json"
 }
