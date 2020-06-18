@@ -45,6 +45,9 @@ for csv_path in settings['csv_paths']:
         if len(text) >= settings['max_char_length']:
             continue
 
+        if type(text) != str:
+            continue
+
         text_to_conll(text=text,
                       nlp=nlp,
                       delimiter=settings['text_to_conll']['delimiter'],
