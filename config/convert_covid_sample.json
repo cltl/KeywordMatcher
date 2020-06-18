@@ -4,10 +4,11 @@
   ],
   "csv_columnname" : "notitie",
   "csv_delimiter" : ",",
-  "first_n_rows" : 3000,
+  "first_n_rows" : 10000,
+  "max_char_length" : 10000,
   "text_to_conll" : {
     "spacy_model_name" : "nl_core_news_sm",
-    "delimiter" : "  ",
+    "delimiter" : " ",
     "output_dir" : "/data/covid_project/data/the_sample/all",
     "spacy_attrs" : ["text", "ent_type_"],
     "default_values" : {"ent_type_" : "O"},

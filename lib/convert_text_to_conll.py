@@ -42,11 +42,12 @@ for csv_path in settings['csv_paths']:
 
         text = row[settings['csv_columnname']]
 
+        if type(text) != str:
+            continue
+
         if len(text) >= settings['max_char_length']:
             continue
 
-        if type(text) != str:
-            continue
 
         text_to_conll(text=text,
                       nlp=nlp,

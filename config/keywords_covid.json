@@ -11,7 +11,7 @@
 },
   "input_folder": "/data/covid_project/data/the_sample/all",
   "suffix": ".conll",
-  "conll_delimiter": "  ",
+  "conll_delimiter": " ",
   "index_column": 0,
   "sample_size_per_label": 60,
   "output_path_index": "/data/covid_project/data/the_sample/all/index.json",
