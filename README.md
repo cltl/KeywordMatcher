@@ -35,11 +35,18 @@ We use the **lib/python keyword_index.py** to obtain this information.
 Please call for more information:
 
 ```bash
-python keyword_index.py -h
+python lib/keyword_index.py -h
 ```
 
 The result is an index from a label to the CoNLL basenames that belong
 to this label.
+
+Step 3: package it
+You can use
+
+```bash
+python lib/package_sample.py -h
+```
 
 ## Authors
 * **Marten Postma** (m.c.postma@vu.nl)

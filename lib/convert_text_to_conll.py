@@ -40,7 +40,12 @@ for csv_path in settings['csv_paths']:
         if index >= settings['first_n_rows']:
             break
 
-        text_to_conll(text=row[settings['csv_columnname']],
+        text = row[settings['csv_columnname']]
+
+        if len(text) >= settings['max_char_length']:
+            continue
+
+        text_to_conll(text=text,
                       nlp=nlp,
                       delimiter=settings['text_to_conll']['delimiter'],
                       output_dir=settings['text_to_conll']['output_dir'],
