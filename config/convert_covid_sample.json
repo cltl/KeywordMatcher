@@ -12,6 +12,7 @@
     "output_dir" : "/data/covid_project/data/the_sample/all",
     "spacy_attrs" : ["text", "ent_type_"],
     "default_values" : {"ent_type_" : "O"},
+    "exclude" : ["is_space"],
     "start_with_index" : false,
     "overwrite_existing_conll_file" : false
   }

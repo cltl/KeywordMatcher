@@ -55,6 +55,7 @@ for csv_path in settings['csv_paths']:
                       output_dir=settings['text_to_conll']['output_dir'],
                       basename=f'{basename}---{index+1}.conll',
                       spacy_attrs=settings['text_to_conll']['spacy_attrs'],
+                      exclude=settings['text_to_conll']['exclude'],
                       default_values=settings['text_to_conll']['default_values'],
                       start_with_index=settings['text_to_conll']['start_with_index'],
                       verbose=1)
